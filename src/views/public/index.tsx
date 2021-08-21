@@ -1,0 +1,2 @@
+export {PublicationView} from './publicationView'
+
