@@ -1,9 +1,9 @@
 import React from 'react';
-import Container from '@material-ui/core/Container';
+// import Container from '@material-ui/core/Container';
 import { Grid } from '@material-ui/core';
-import Typography from '@material-ui/core/Typography';
+// import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
-import Link from '../src/Link';
+// import Link from '../src/Link';
 import Copyright from '../src/Copyright';
 
 import {Icon, Title} from '../src/component/icon';
