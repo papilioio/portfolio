@@ -13,7 +13,11 @@
     "preserveConstEnums": true,
     "sourceMap": true,
     "skipLibCheck": true,
-    "baseUrl": ".",
+    "baseUrl": "src",
+    "paths": {
+      "@component/*" :["component/*"],
+      "@util/*" : ["component/util/*"]
+    },
     "lib": [
       "dom",
       "es2017"

@@ -1,22 +1,25 @@
 import { createTheme } from '@material-ui/core/styles'
 const theme = createTheme({
-    typography: {
-        "fontFamily": "\"'Noto Sans', sans-serif\"",
+  typography: {
+    "fontFamily": "\"'Noto Sans', sans-serif\"",
+  },
+  palette: {
+    background: {
+      default: '#000',
     },
-    palette: {
-        primary: {
-          main: "#4756EF",
-          dark: "#689F38",
-          light: "#47F6FF"
-        },
-        secondary: {
-          main: "#777777"
-        },
-        text: {
-          primary: "#212121",
-          secondary: "#757575"
-        }
-      }
-    }
+    primary: {
+      main: "#FFFFFF",
+      dark: "#FFFFFF",
+      light: "#000000"
+    },
+    secondary: {
+      main: "#777777"
+    },
+    text: {
+      primary: "#FFFFFF",
+      secondary: "#cccccc"
+    },
+  }
+}
 )
 export default theme
