@@ -22,19 +22,19 @@ const styles = props => ({
 });
 
 const MenuButton = (props) => {
-    const { classes, children } = props
+    const { classes, children, href } = props
     // const [over, setOver] = React.useState(false)
 
     // const handleChange = () => {
     //     setOver((prev) => !prev);
     // };
-    const preventDefault = (event) => event.preventDefault()
+    // const preventDefault = (event) => event.preventDefault()
     return (
         <Typography>
             <Link
-                href="#"
+                href={href}
                 className={classes.menuButton}
-                onClick={preventDefault}
+                // onClick={preventDefault}
                 // onMouseOver={handleChange}
             >
 

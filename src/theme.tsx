@@ -2,6 +2,9 @@ import { createTheme } from '@material-ui/core/styles'
 const theme = createTheme({
   typography: {
     "fontFamily": "\"'Noto Sans', sans-serif\"",
+    "fontWeightBold": 100,
+    "fontWeightMedium": 100,
+    "fontWeightLight" : "lighter",
   },
   palette: {
     background: {
