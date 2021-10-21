@@ -1,7 +1,8 @@
-import {Icon} from './icon'
-import {Title} from './title'
+import { Icon } from './icon'
+import { Title, PapilioioText } from './title'
 
 export {
     Icon,
-    Title
+    Title,
+    PapilioioText
 }

@@ -33,7 +33,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "pages/index.mdx", "pages/projects/project2.mdx"  ],
   "exclude": [
     "node_modules"
   ]
