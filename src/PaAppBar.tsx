@@ -12,12 +12,13 @@ const useStyles = makeStyles((theme: Theme) =>
         root: {
             width: '100vw',
             flexGrow: 1,
+            zIndex:3
 
         },
         bar: {
             // backgroundColor: 'rgba(0,0,0,0)',
             color: '#FFF',
-            boxShadow:'none',
+            boxShadow: 'none',
         },
         menuButton: {
             marginRight: theme.spacing(2),
@@ -36,7 +37,7 @@ export default function PaAppBar() {
             <AppBar position="static" color="transparent" className={classes.bar}>
                 <Toolbar>
                     <div className={classes.title} >
-                    <Link href={"/"}><Title color="#000" /></Link>
+                        <Link href={"/"}><Title color="#000" /></Link>
                     </div>
                     <Button disabled>Works</Button>
                     <Link href={"/about"}><Button color="inherit">About</Button></Link>
